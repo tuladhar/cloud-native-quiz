@@ -1,6 +1,7 @@
 # ☑️ Free Cloud Certification Quiz
 
-🎓 Test your knowledge and prepare for your cloud certification exams. 🔓 Unlock new career opportunity.
+🧠 Test your knowledge and prepare for your cloud certification exams 🎓
+🔓 Unlock new career opportunity.
 
 👉 Check it out: https://quiz.purutuladhar.com
 
