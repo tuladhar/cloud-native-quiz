@@ -1,5 +1,5 @@
-# quiz-app
-Free Quiz App - Embark on your certification journey and unlock new career opportunities.
+# Free Cloud Quiz App
+Free Cloud Quiz App - Embark on your cloud certification journey and unlock new career opportunities.
 
 ## Getting Started
 
