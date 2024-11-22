@@ -27,3 +27,5 @@ npx next dev
 ```
 npx next build
 ```
+
+Upload the static output in `out/` directory to this repo.
