@@ -1,7 +1,12 @@
-# Free Cloud Quiz App
-Free Cloud Quiz App - Embark on your cloud certification journey and unlock new career opportunities.
+# ☑️ Free Cloud Certification Quiz
 
-## Getting Started
+🎓 Test your knowledge and prepare for your cloud certification exams. 🔓 Unlock new career opportunity.
+
+👉 Check it out: https://quiz.purutuladhar.com
+
+<img src='https://github.com/user-attachments/assets/32b8ca1f-4d29-487b-b449-1fe7d01b4000' width=640 />
+
+## 🚀 Project Bootstrap
 
 ```
 cd /Users/puru/next.js/quiz-app/quiz.purutuladhar.com
@@ -11,13 +16,13 @@ cd quiz-ui
 npm install framer-motion lucide-react canvas-confetti @icons-pack/react-simple-icons --legacy-peer-deps
 ```
 
-## Local Development
+## 🛠️ Local Development
 
 ```
 npx next dev
 ```
 
-## Release
+## 📦 Release
 
 ```
 npx next build
