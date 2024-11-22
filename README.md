@@ -22,3 +22,9 @@ Design a minimalist logo inspired by a cloud theme, representing cloud technolog
 ```
 npx next dev
 ```
+
+## Release
+
+```
+npx next build
+```
