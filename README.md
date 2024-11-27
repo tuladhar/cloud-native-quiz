@@ -2,12 +2,15 @@
 
 > ⏳ More cloud certification quizzes coming soon...
 
-
 🧠 Test your knowledge and prepare for your cloud certification exams 🎓
+- [AWS Certified AI Practitioner (AIF-C01)](https://aif.purutuladhar.com)
+- [Cilium Certified Associate (CCA)](https://cca.purutuladhar.com)
+- [Kubernetes & Cloud Native Associate (KCNA)](https://kcna.purutuladhar.com)
+- [Kubernetes & Cloud Native Security Associate (KCSA)](https://kcsa.purutuladhar.com)
 
 👉 Check it out: https://quiz.purutuladhar.com
 
-<img src='https://github.com/user-attachments/assets/32b8ca1f-4d29-487b-b449-1fe7d01b4000' width=640 />
+![Screenshot 2024-11-27 at 10 33 46 AM](https://github.com/user-attachments/assets/215eabcd-15de-404b-8e20-b20453bca771)
 
 ## 🚀 Project Bootstrap
 
