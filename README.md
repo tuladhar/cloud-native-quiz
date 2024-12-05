@@ -7,10 +7,11 @@
 - [Cilium Certified Associate (CCA)](https://cca.purutuladhar.com)
 - [Kubernetes & Cloud Native Associate (KCNA)](https://kcna.purutuladhar.com)
 - [Kubernetes & Cloud Native Security Associate (KCSA)](https://kcsa.purutuladhar.com)
+- [Certified GitOps Associate (CGOA)](https://cgoa.purutuladhar.com)
 
 👉 Check it out: https://quiz.purutuladhar.com
 
-![Screenshot 2024-11-27 at 10 33 46 AM](https://github.com/user-attachments/assets/215eabcd-15de-404b-8e20-b20453bca771)
+![quiz ui](https://github.com/user-attachments/assets/140f2686-e221-4b93-8b57-ad8e50a08d6a)
 
 ## 🚀 Project Bootstrap
 
