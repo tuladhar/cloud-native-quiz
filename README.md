@@ -1,6 +1,6 @@
-# ☑️ Free Cloud Certification Quiz
+# 🆓 ☁️ Cloud Certification Quiz
 
-> ⏳ More cloud certification quizzes coming soon...
+> 🧑‍🍳 More cloud certification quizzes in the making... Stay tuned!
 
 🧠 Test your knowledge and prepare for your cloud certification exams 🎓
 - [AWS Certified AI Practitioner (AIF-C01)](https://aif.purutuladhar.com)
