@@ -7,28 +7,14 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Footer from './_footer';
 import BookBanner from "./book";
+import { Button } from "@/components/ui/button";
 
 export default function LandingPage() {
   const coupons = [
     {
-      name: "Kubernetes and Cloud Native Associate",
+      name: "Cloud Native Study Group",
       image: "/images/kcna.png",
-      couponUrl: "https://example.com/kcna-coupon",
-    },
-    {
-      name: "Kubernetes and Cloud Native Security Associate",
-      image: "/images/kcsna.png",
-      couponUrl: "https://example.com/kcsna-coupon",
-    },
-    {
-      name: "Cilium Certified Associate",
-      image: "/images/cilium.png",
-      couponUrl: "https://example.com/cilium-coupon",
-    },
-    {
-      name: "Certified GitOps Associate",
-      image: "/images/gitops.png",
-      couponUrl: "https://example.com/gitops-coupon",
+      couponUrl: "https://github.com/CloudNativeStudyGroup/Linux-Foundation-Coupons",
     },
   ]
 
@@ -152,6 +138,30 @@ export default function LandingPage() {
             </motion.div>
           </div>
         </div>
+
+        <div className="w-full max-w-4xl items-center justify-center rounded-xl shadow-lg p-6 md:p-8">
+          <div className="mb-12  flex flex-col items-center justify-center">
+            <h3 className="text-xl font-medium mb-4 inline-flex items-center">
+              <Gift className="h-5 w-5 mr-2 text-purple-400 items-center justify-center" />
+              Certification Discounts
+            </h3>
+            <div className="flex flex-wrap gap-3">
+              {coupons.map((cert, index) => (
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="border-blue-500/30 hover:bg-black bg-transparent hover:border-blue-500 text-purple-400 hover:text-purple-300"
+                  asChild
+                >
+                  <Link href={cert.couponUrl} target="_blank" rel="noopener noreferrer">
+                    {cert.name}
+                  </Link>
+                </Button>
+              ))}
+            </div>
+          </div>
+        </div>
+
         <Footer />
       </div >
     </div>
