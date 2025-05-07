@@ -10,12 +10,17 @@
   },
   "dependencies": {
     "@icons-pack/react-simple-icons": "^10.1.0",
+    "@radix-ui/react-slot": "^1.2.2",
     "canvas-confetti": "^1.9.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "framer-motion": "^11.11.17",
     "lucide-react": "^0.460.0",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106"
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "tailwind-merge": "^3.2.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
