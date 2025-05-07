@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-animation {
+  font-weight: bold;
+  background: linear-gradient(250deg, #facc15, #a950dc, #48a0c9); /* Gradient colors */
+  background-size: 200% 200%; /* Double the size for smooth animation */
+  animation: gradient-animation 3s ease infinite; /* Animation settings */
+  color: white;
+}
+
+@keyframes gradient-animation {
+0% {
+  background-position: 0% 50%; /* Start position */
+}
+50% {
+  background-position: 100% 50%; /* Midpoint position */
+}
+100% {
+  background-position: 0% 50%; /* End position */
+}
+}

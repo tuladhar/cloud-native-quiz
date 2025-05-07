@@ -1,42 +1,36 @@
-# **\*Free\*** Cloud Native Certifications Quiz
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
->[!NOTE]
-> More quizzes in the 🧑‍🍳 baking...
+## Getting Started
 
-Cloud Native Certifications Quiz is a free quiz platform aimed to help cloud-native enthusiasts and professionals test their knowledge and prepare for [CNCF cloud-native certifications](https://www.cncf.io/training/certification/). This project offers interactive quizzes for certifications such as KCNA, KCSA, CGOA, and more. Perfect for beginners and experts alike!
+First, run the development server:
 
-Explore the quizzes: [quiz.purutuladhar.com](https://quiz.purutuladhar.com)
-
-## Demo
-
-<img src="https://github.com/user-attachments/assets/140f2686-e221-4b93-8b57-ad8e50a08d6a" height=650 />
-
-## Development
-
-### Local
 ```bash
-cd ~/next.js/quiz-app/quiz.purutuladhar.com
-npx create-next-app@latest quiz-ui
-
-cd quiz-ui
-npm install framer-motion lucide-react canvas-confetti @icons-pack/react-simple-icons --legacy-peer-deps
-
-npx next dev
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-### Build and release
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```
-npx next build
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Upload the static output in the `out/` directory to this repo.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Learn More
 
-## License
+To learn more about Next.js, take a look at the following resources:
 
-This project is licensed under the [MIT License](https://github.com/tuladhar/cloud-native-quiz/edit/main/LICENSE).
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Acknowledgments
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Thanks to all the contributors and open-source libraries that made this project possible.
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
